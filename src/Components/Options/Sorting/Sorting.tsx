@@ -3,7 +3,6 @@ import "./Sorting.css"
 
 
 interface SortingProps { 
-    // flights: FlightsList;
     handleSorting: ComponentProps<"input">["onChange"];
 }
 

@@ -1,7 +1,6 @@
 import { FC } from "react"
 import './Flight.css'
 
-
 const getTime = (stringDate: string): string => {
     const date: Date = new Date(stringDate);
     let hours: string | number = date.getHours();

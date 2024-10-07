@@ -1,17 +1,16 @@
-import { FlightsWrapper } from './Components/FlightsWrapper/FlightsWrapper';
-import { OptionsWrapper } from './Components/Options/OptionsWrapper/OptionsWrapper';
-import { useFlightsList } from './Components/useFlightsList';
-import './App.css';
+import { FlightsWrapper } from "./Components/FlightsWrapper/FlightsWrapper";
+import { OptionsWrapper } from "./Components/Options/OptionsWrapper/OptionsWrapper";
+import { useFlightsList } from "./Components/useFlightsList";
+import "./App.css";
 
 function App() {
-
-  const { 
-    filteredFlights, 
+  const {
+    filteredFlights,
     visibleCount,
     handleShowMoreFlights,
-    handleSorting, 
-    handleMinPriceChange, 
-    handleMaxPriceChange, 
+    handleSorting,
+    handleMinPriceChange,
+    handleMaxPriceChange,
     handleLayoverChange,
     handleDirectChange,
     showLayovers,
@@ -19,13 +18,13 @@ function App() {
     selectedAirlines,
     airlines,
     handleAirlineCheckboxChange,
-    minPrices
+    minPrices,
   } = useFlightsList();
 
   return (
     <div className="App">
-      <OptionsWrapper 
-        flights={filteredFlights} 
+      <OptionsWrapper
+        flights={filteredFlights}
         handleSorting={handleSorting}
         handleMinPriceChange={handleMinPriceChange}
         handleMaxPriceChange={handleMaxPriceChange}
@@ -37,11 +36,11 @@ function App() {
         selectedAirlines={selectedAirlines}
         handleAirlineCheckboxChange={handleAirlineCheckboxChange}
         minPrices={minPrices}
-        />
-      <FlightsWrapper 
-      flights={filteredFlights}
-      visibleCount={visibleCount}
-      handleShowMoreFlights={handleShowMoreFlights}  
+      />
+      <FlightsWrapper
+        flights={filteredFlights}
+        visibleCount={visibleCount}
+        handleShowMoreFlights={handleShowMoreFlights}
       />
     </div>
   );

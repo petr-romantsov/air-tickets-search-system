@@ -1,16 +1,15 @@
-import { ComponentProps, FC } from "react";
+import { ComponentProps, FC } from 'react';
 
-interface ShowMoreButtonProps { 
-    handleShowMoreFlights: ComponentProps<"button">["onClick"]; 
+interface ShowMoreButtonProps {
+  handleShowMoreFlights: ComponentProps<'button'>['onClick'];
 }
 
-export const ShowMoreButton: FC<ShowMoreButtonProps> = ({ handleShowMoreFlights }) => {
-    return (
-        <button 
-        className="showMore-button" 
-        onClick={handleShowMoreFlights}
-        >
-            Показать еще
-        </button>
-    )
-}
+export const ShowMoreButton: FC<ShowMoreButtonProps> = ({
+  handleShowMoreFlights,
+}) => {
+  return (
+    <button className="showMore-button" onClick={handleShowMoreFlights}>
+      Показать еще
+    </button>
+  );
+};

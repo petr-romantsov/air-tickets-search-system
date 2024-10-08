@@ -1,7 +1,7 @@
-import { FlightsWrapper } from "./Components/FlightsWrapper/FlightsWrapper";
-import { OptionsWrapper } from "./Components/Options/OptionsWrapper/OptionsWrapper";
-import { useFlightsList } from "./Components/useFlightsList";
-import "./App.css";
+import { FlightsWrapper } from './Components/FlightsWrapper/FlightsWrapper';
+import { OptionsWrapper } from './Components/Options/OptionsWrapper/OptionsWrapper';
+import './App.css';
+import { useFlightsList } from './api/useFlightsList';
 
 function App() {
   const {

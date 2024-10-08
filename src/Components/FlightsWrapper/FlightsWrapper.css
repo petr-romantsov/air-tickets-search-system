@@ -1,20 +1,11 @@
-.flights-wrapper { 
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    width: 55%;
+.flights-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 65%;
 }
 
-.flights-list { 
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
-    row-gap: 20px;
-    list-style: none;
-}
-
-.showMore-button { 
-    align-self: center;
-    width: 200px;
+.showMore-button {
+  align-self: center;
+  width: 200px;
 }

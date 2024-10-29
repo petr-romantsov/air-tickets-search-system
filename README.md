@@ -13,7 +13,12 @@ The task is to develop a system that processes airline flights based on the prov
 * Implemented functionality to sort search results by price and duration;
 * Implemented various filters (by price, by layover availability, by airlines).
 
-#### Link 
+### Tools 
+![Static Badge](https://img.shields.io/badge/React-%2361DBFB?style=for-the-badge&logo=React&logoColor=black)
+![Static Badge](https://img.shields.io/badge/Typescript-%233178C6?style=for-the-badge&logo=Typescript&logoColor=white)
+
+
+### Link 
 
 Link to view the project: https://petr-romantsov.github.io/air-tickets-search-system/
 

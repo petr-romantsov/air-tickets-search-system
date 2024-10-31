@@ -3,9 +3,9 @@
   <img src="https://github.com/petr-romantsov/air-tickets-search-system/blob/main/demo-screenshot.png" alt="Screenshot of Airtickets search system">
 </p>
 
-### Propject description
+### Project description
 #### Test Assignment for Job Application.
-2
+
 The task is to develop a system that processes airline flights based on the provided mock file. You need to create and render a search results page for flights. In addition to flight cards, the page should include a block for filters and sorting options. Filtering and sorting should occur without reloading the page.
 
 #### Result:
